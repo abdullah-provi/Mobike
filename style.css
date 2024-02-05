@@ -3,10 +3,7 @@
     margin: 0;
 }
 
-body{
-    
-    
-}
+body {}
 
 nav {
 
@@ -28,7 +25,7 @@ nav img {
 nav ul li {
     float: left;
     list-style: none;
-    
+
 
 }
 
@@ -101,13 +98,166 @@ nav ul li a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
-.home-page button:hover{
+.home-page button:hover {
     background-color: black;
     color: chartreuse;
 }
 
 /* ---------container-2-------- */
 
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f2f3f8;
+}
+
+
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.section-2-left-part {
+    width: 400px;
+}
+
+.section-6-left-part img {
+    width: 500px;
+
+}
+
+.section-6-left-part img:hover {
+    /* transform: scale(1.05);
+    /* transition: transform 0.3s ease-in-out; * */
+}
+
+.section-6-left-part img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.section-2-right-part {
+    width: 400px;
+}
+
+.section-2-right-part p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+
+}
+
+.section-5 {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+
+
+
+
+}
+
+.about {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    font-size: 50px;
+    line-height: 54px;
+    color: #151515;
+    margin-top: 5%;
+}
+
+.section-4 {
+    padding-bottom: 105px;
+}
+
+.section-4-4-description {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    font-size: 55px;
+    color: black;
+
+}
+
+
+a.link-button {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: chartreuse;
+    border: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* <!-- -------container-3------- --> */
+
+.container-5 {
+    background-color: #000000ec;
+    
+
+}
+
+
+
+.section-3-4-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+}
+
+
+
+.section-3-left-part img {
+    width: 750px;
+
+}
+
+
+
+.section-3-4-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 54px;
+    color: white;
+
+
+}
+
+.section-3-4-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    color: white;
+    padding-bottom: 35px;
+
+
+}
+
+a.link-button {
+
+    text-decoration: none;
+    color: black;
+    background-color: chartreuse;
+    font-size: 13px;
+    padding: 19px 33.5px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+/* <!-- ----------container-4--------- --> */
 
 
 
