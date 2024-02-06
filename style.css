@@ -425,7 +425,7 @@ a.link-button {
 
 }
 
-.cover-box p { 
+.cover-box p {
     text-align: center;
     background-color: slategray;
     font-size: 24px;
@@ -457,4 +457,39 @@ a.link-button {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 
+}
+
+/* --------container-9----- */
+
+.container-9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.photos {
+    padding: 5px;
+}
+
+/* <!-- -----------container-10--------- --> */
+
+.container-10 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+
+}
+.blog h2{
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 10px;
+}
+.blog p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
