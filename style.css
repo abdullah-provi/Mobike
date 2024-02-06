@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-body {}
+
 
 nav {
 
@@ -257,6 +257,9 @@ a.link-button {
 
 }
 
+
+
+
 /* <!-- ----------container-4--------- --> */
 
 .container-4 {
@@ -286,6 +289,7 @@ a.link-button {
     justify-content: center;
     align-items: center;
 
+
 }
 
 .section-box {
@@ -311,7 +315,7 @@ a.link-button {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
-   
+
 }
 
 
@@ -321,7 +325,7 @@ a.link-button {
     padding: 5px;
     margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
-   
+
 
 }
 
@@ -331,6 +335,126 @@ a.link-button {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 15px;
-   
+
 }
+
+.box-2-right-part ul .fa-check {
+    color: green;
+}
+
 /* --------container-6------- */
+
+.container-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+
+}
+
+.section-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.box-1-left-part img {
+    width: 500px;
+
+}
+
+.box-2-right-part .title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box-2-right-part .description {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+
+}
+
+.box-2-right-part .description-2 {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+
+}
+
+.box-2-right-part button {
+    width: 140px;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: chartreuse;
+    margin-top: 30px;
+    border: none;
+
+}
+
+.box-2-right-part button:hover {
+    color: chartreuse;
+    background-color: black;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.box-2-right-part button {
+
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* <!-- --------contaoner-7--------- --> */
+
+.container-7 {
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    background-image: url(slider\ image.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 70vh;
+
+}
+
+.cover-box p { 
+    text-align: center;
+    background-color: slategray;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20% 10% 10% 10%;
+
+
+}
+
+/* ---------container-8-------- */
+
+.container-8 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+}
+
+.container-8 .gallery h2 {
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 20px;
+
+}
+
+.container-8 .gallery p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
+}
