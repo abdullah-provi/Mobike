@@ -442,7 +442,7 @@ a.link-button {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 5%;
+    padding: 2%;
 }
 
 .container-8 .gallery h2 {
@@ -466,6 +466,7 @@ a.link-button {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 5%;
 
 }
 
@@ -479,17 +480,280 @@ a.link-button {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 2%;
+
 
 }
-.blog h2{
+
+.blog h2 {
     font-size: 55px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin: 10px;
 }
-.blog p{
+
+.blog p {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+}
+
+/* <!-- -------container-11------- --> */
+
+.container-11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 5%;
+}
+
+.photos-box {
+    width: 30%;
+
+
+}
+
+.photos-box img {
+    width: 100%;
+
+}
+
+.photos-box p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(40, 223, 52);
+    margin-top: 10px;
+}
+
+.photos-box h2 {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+.photos-box h2:hover {
+    color: rgb(40, 223, 52);
+}
+
+.photos-box .latter {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+/* <!-- -------container-12------- --> */
+
+.containerr-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #151515;
+
+
+
+}
+
+.section-boxx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.box-1-left-partt img {
+    width: 80%;
+    margin-left: 20%;
+
+}
+
+.optional {
+    margin-left: 40%;
+}
+
+.box-2-right-partt {
+    text-align: center;
+
+
+}
+
+
+
+.box-2-right-partt .titlee {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.box-2-right-partt .descriptionn {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    color: white;
+
+}
+
+.box-2-right-partt .descriptionn-2 {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.box-2-right-partt button {
+    width: 100%;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: chartreuse;
+    margin-top: 20px;
+    border: none;
+
+
+
+}
+
+.box-2-right-partt button:hover {
+    color: chartreuse;
+    background-color: black;
+    transition: 0.3s;
+    border: 1px solid chartreuse;
+}
+
+
+
+input {
+    margin-top: 5%;
+    width: 100%;
+    height: 50px;
+}
+
+/* ---------footer-------- */
+
+.footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%
+}
+
+.footer-container {
+
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pic {
+    color: white;
+}
+
+.links h2 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.address h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+
+}
+.address p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+   margin-bottom: 10px;
+}
+
+.follow-us h2 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.links ul li a:hover{
+    color: chartreuse;
+
+}
+.links ul li {
+    list-style: none;
+    line-height: 30px;
+}
+
+.address ul li {
+    font-size: 15px;
+    list-style: none;
+    line-height: 35px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.address ul li:hover{
+    color: chartreuse;
+}
+
+.follow-us {
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.icon a {
+    margin: 10px;
+    color: white;
+}
+.icon a:hover{
+    color: chartreuse;
+}
+
+.last-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-color: #222222;
+
+}
+
+.last-box p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pic img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 45px;
+   
+
 }
